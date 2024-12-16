@@ -1,0 +1,217 @@
+.login-div {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+.login-wrapper {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+}
+.login-signup {
+  flex-direction: column;
+}
+.login-login {
+  flex-direction: column;
+}
+
+.signup-input {
+  flex-direction: column;
+  align-items: start !important;
+}
+
+.signup-input input {
+  border-radius: 5px;
+  border: none;
+}
+
+.ImgFrame {
+  img {
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login-div {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-wrapper {
+    width: 300px;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  .login-signup {
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .login-login {
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .signup-input {
+    gap: 5px;
+  }
+
+  .signup-input input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ImgFrame {
+    display: none;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .login-div {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-wrapper {
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  .login-signup {
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .login-login {
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .signup-input {
+    gap: 10px;
+  }
+
+  .signup-input input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ImgFrame {
+    display: none;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .login-div {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 700px;
+    height: 500px;
+  }
+  .login-signup {
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+  }
+  .login-login {
+    gap: 50px;
+    width: 50%;
+  }
+
+  .signup-input {
+    gap: 5px;
+  }
+
+  .signup-input input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ImgFrame {
+    width: 50%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .login-div {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-wrapper {
+    width: 800px;
+    height: 600px;
+  }
+  .login-signup {
+    gap: 40px;
+    height: 100%;
+    width: 50%;
+  }
+  .login-login {
+    gap: 50px;
+    width: 50%;
+  }
+
+  .signup-input {
+    gap: 5px;
+  }
+
+  .signup-input input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ImgFrame {
+    width: 50%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
